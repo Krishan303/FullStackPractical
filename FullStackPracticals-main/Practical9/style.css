@@ -1,0 +1,684 @@
+html {
+  scroll-padding-top: 70px;
+  scroll-behavior: smooth;
+}
+body {
+  margin: none;
+  padding: none;
+  box-sizing: border-box;
+  width: 98.7%;
+}
+#header {
+  margin-top: -6%;
+  width: 98.65%;
+  background-color: gray;
+  height: 50px;
+  color: white;
+  font-family: sans-serif;
+  position: fixed;
+}
+#banner {
+  margin-top: 6%;
+  width: 100%;
+  height: 650px;
+  background-image: url("https://i.imgur.com/qIxEnMl.jpg");
+  background-size: cover;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+}
+
+#para {
+  font-size: 20px;
+  margin-top: 8px;
+  padding-top: 190px;
+  margin-left: 47%;
+  color: white;
+  font-family: sans-serif;
+}
+#container-circle {
+  justify-content: center;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 2%;
+}
+.circle {
+  margin-right: 4%;
+}
+.circle img {
+  border-radius: 50%;
+  height: 260px;
+  width: 280px;
+}
+.sec {
+  margin-top: 13%;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 40px;
+}
+
+#sec2 {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#horcard {
+  margin-top: -2.2%;
+  width: 50%;
+  height: 100.5%;
+}
+#main-content {
+  width: 50%;
+  background-color: rgb(138, 136, 136);
+  height: 102%;
+  overflow: auto;
+}
+.artical {
+  margin-left: 5%;
+  margin-bottom: 2%;
+  background-color: black;
+  height: 30%;
+}
+#img1 {
+  background-image: url(https://imgur.com/JyMz0CR.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#img2 {
+  background-image: url(https://imgur.com/GFLWoXM.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#img3 {
+  background-image: url(https://imgur.com/uzmZqZA.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#sec3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-left: 2%;
+  height: 100%;
+  overflow: auto;
+}
+.box {
+  margin-right: 2%;
+  height: 100%;
+  width: 22%;
+  background-color: rgb(211, 208, 208);
+}
+#big {
+  height: 30vh;
+  width: 21.5vw;
+  align-content: center;
+}
+
+#small {
+  width: 21.5vw;
+  height: 30vh;
+  align-content: center;
+}
+.box p {
+  font-size: 1rem;
+  text-align: justify;
+  font-family: sans-serif;
+  padding-left: 5%;
+  line-height: 1.3rem;
+  padding-right: 5%;
+  color: rgb(58, 58, 58);
+}
+.box h3 {
+  text-align: center;
+  font-family: sans-serif;
+}
+#footer {
+  margin-top: -10px;
+  width: 100%;
+  background-color: rgb(250, 158, 242);
+  height: 100px;
+  color: white;
+  font-family: sans-serif;
+}
+#main {
+  padding-top: 150px;
+  margin-left: 40%;
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  border: none;
+}
+.art {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 30px;
+  color: rgb(14, 13, 13);
+  font-weight: 900;
+}
+#foot {
+  text-align: center;
+  padding-top: 12px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: rgb(0, 0, 0);
+}
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  font-size: 22px;
+  font-family: sans-serif;
+  justify-content: center;
+  margin-top: -0.75%;
+}
+#nav-bar li {
+  padding: 17px;
+  margin-right: 32px;
+}
+#nav-bar a {
+  text-decoration: none;
+  color: white;
+}
+#nav-bar a :hover {
+  color: black;
+  background-color: white;
+}
+button {
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  height: 2rem;
+  width: 100%;
+  font-size: 1.2rem;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: rgb(81, 81, 243);
+}
+#sec2 h2 {
+  color: white;
+  font-size: 30px;
+}
+#aboutproject {
+  overflow: auto;
+  color: white;
+  line-height: 2rem;
+  font-size: 1.3rem;
+}
+.sidebar {
+  height: 50%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 25px;
+  cursor: pointer;
+  font-weight: 900;
+  background-color: gray;
+  color: white;
+  border: none;
+}
+
+.openbtn:hover {
+  border: none;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+  display: none;
+  border: none;
+}
+@media (min-width: 801px) and (max-width: 1199px) {
+  html {
+    scroll-padding-top: 150px;
+    scroll-behavior: smooth;
+  }
+  #tech {
+    margin-top: 680px;
+  }
+  #sec3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 2.2%;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .openbtn {
+    display: none;
+  }
+  .box {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 48%;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: -1.5%;
+    margin-bottom: 2%;
+    overflow: auto;
+  }
+  .box p {
+    font-size: 1.4rem;
+    line-height: 1.85rem;
+  }
+  button {
+    width: 90%;
+    font-size: 1.6rem;
+    font-weight: 900;
+  }
+  #one {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #small {
+    width: 40vw;
+    height: 30vh;
+  }
+  #big {
+    height: 30vh;
+    width: 40vw;
+  }
+
+  #main-content {
+    width: 97.9%;
+    background-color: rgb(138, 136, 136);
+    height: 102%;
+    overflow: auto;
+  }
+  #aboutproject {
+    font-size: 1.9rem;
+    line-height: 2.2rem;
+  }
+  #sec2 {
+    height: 550px;
+    width: 100%;
+    display: block;
+  }
+  #horcard {
+    margin-left: -2.5%;
+    margin-top: -2.2%;
+    width: 97.5%;
+    height: 100.5%;
+  }
+
+  .artical {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color: black;
+    height: 30%;
+  }
+  #img1 {
+    background-image: url(https://imgur.com/JyMz0CR.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  #img2 {
+    background-image: url(https://imgur.com/GFLWoXM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #img3 {
+    background-image: url(https://imgur.com/uzmZqZA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  #banner {
+    background-image: url(https://imgur.com/qIxEnMl.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #team {
+    margin-left: -9%;
+  }
+  #container-circle {
+    margin-left: -1%;
+    width: 94%;
+  }
+  .circle {
+    margin-left: 5%;
+  }
+  #aboutus {
+    margin-left: -8%;
+  }
+  #banner {
+    width: 97.5%;
+    height: 400px;
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 40px;
+    color: white;
+  }
+  #nav-bar li {
+    padding-bottom: 13px;
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+  #header {
+    justify-content: left;
+    width: 94.8%;
+  }
+  #footer {
+    width: 98%;
+    height: 150px;
+  }
+  #footer p {
+    font-size: 2rem;
+  }
+}
+@media only screen and (max-width: 800px) {
+  #tech {
+    margin-top: 680px;
+  }
+  #sec3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 2.2%;
+    height: 100%;
+    overflow: auto;
+  }
+  .box {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: -1.5%;
+    margin-bottom: 2%;
+    overflow: auto;
+  }
+  button {
+    width: 90%;
+  }
+  #one {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #small {
+    width: 80vw;
+    height: 35vh;
+  }
+  #big {
+    height: 35vh;
+    width: 80vw;
+  }
+  #sec2 {
+    height: 600px;
+    width: 100%;
+    display: block;
+  }
+  #horcard {
+    margin-left: -2.5%;
+    margin-top: -2.2%;
+    width: 97.5%;
+    height: 100.5%;
+  }
+  #main-content {
+    width: 97.9%;
+    background-color: rgb(138, 136, 136);
+    height: 102%;
+    overflow: auto;
+  }
+  .artical {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color: black;
+    height: 30%;
+  }
+  #img1 {
+    background-image: url(https://imgur.com/JyMz0CR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #img2 {
+    background-image: url(https://imgur.com/GFLWoXM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #img3 {
+    background-image: url(https://imgur.com/uzmZqZA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #banner {
+    background-image: url(https://imgur.com/qIxEnMl.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #team {
+    margin-left: -9%;
+  }
+  #container-circle {
+    margin-left: -1%;
+  }
+  #aboutus {
+    margin-left: -8%;
+  }
+  #banner {
+    width: 97.5%;
+    height: 400px;
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 40px;
+    color: white;
+  }
+
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+  #header {
+    width: 94.5%;
+  }
+  #main {
+    margin-top: -1%;
+    margin-left: 1%;
+    width: 40px;
+    height: 50px;
+    transition: margin-left 0.5s;
+    display: block;
+    border: none;
+  }
+  .openbtn {
+    font-size: 2rem;
+  }
+
+  #footer {
+    width: 98%;
+  }
+}
+
+@media (max-width: 625px) {
+  #tech {
+    margin-top: 680px;
+  }
+  #sec3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 2.2%;
+    height: 100%;
+    overflow: auto;
+  }
+  .box {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border: 1px solid white;
+    text-align: center;
+    margin-left: -1.5%;
+    margin-bottom: 2%;
+    overflow: auto;
+  }
+  button {
+    width: 90%;
+  }
+  #one {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #small {
+    width: 80vw;
+    height: 35vh;
+  }
+  #big {
+    height: 35vh;
+    width: 80vw;
+  }
+  #sec2 {
+    height: 600px;
+    width: 100%;
+    display: block;
+  }
+  #horcard {
+    margin-left: -2.5%;
+    margin-top: -2.2%;
+    width: 97.5%;
+    height: 100.5%;
+  }
+  #main-content {
+    width: 97.9%;
+    background-color: rgb(138, 136, 136);
+    height: 102%;
+    overflow: auto;
+  }
+  .artical {
+    margin-left: 5%;
+    margin-bottom: 2%;
+    background-color: black;
+    height: 30%;
+  }
+  #img1 {
+    background-image: url(https://imgur.com/JyMz0CR.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #img2 {
+    background-image: url(https://imgur.com/GFLWoXM.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #img3 {
+    background-image: url(https://imgur.com/uzmZqZA.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #banner {
+    background-image: url(https://imgur.com/qIxEnMl.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  #team {
+    margin-left: -9%;
+  }
+  #container-circle {
+    margin-left: -1%;
+  }
+  #aboutus {
+    margin-left: -8%;
+  }
+  #banner {
+    margin-top: 9%;
+    width: 97.5%;
+    height: 400px;
+    margin-bottom: 15px;
+    display: flex;
+    font-size: 40px;
+    color: white;
+  }
+
+  .sidebar {
+    padding-top: 15px;
+  }
+
+  .sidebar a {
+    font-size: 18px;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+  #header {
+    width: 93.31%;
+    margin-bottom: 10%;
+  }
+  #main {
+    margin-top: -2%;
+    margin-left: -2%;
+    width: 40px;
+    height: 50px;
+    transition: margin-left 0.5s;
+    display: block;
+    border: none;
+  }
+  .openbtn {
+    font-size: 2rem;
+  }
+
+  #footer {
+    width: 98%;
+  }
+}
